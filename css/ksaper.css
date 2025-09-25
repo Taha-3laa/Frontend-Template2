@@ -900,18 +900,22 @@ button.l {
 @media (max-width: 766px) {
   .prices .plan {
     flex-basis: 100%;
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 767px) {
   .prices .plan {
-    flex-basis: 50%;
+    flex-basis: 46%;
+  }
+  .prices .plan:nth-child(n+1):nth-child(-n+2) {
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 991px) {
   .prices .plan {
-    flex-basis: 24%;
+    flex-basis: 23%;
   }
 }
 
